@@ -235,7 +235,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/usuarios/mbYfCBPJsif8GD1a",
+					"raw": "http://localhost:3000/usuarios/tCVBWqlcbwoOGFan",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -243,7 +243,7 @@
 					"port": "3000",
 					"path": [
 						"usuarios",
-						"mbYfCBPJsif8GD1a"
+						"tCVBWqlcbwoOGFan"
 					]
 				}
 			},
@@ -256,7 +256,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 400\", function () {\r",
+							"pm.test(\"A reposta deve conter status 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"pm.test(\"Validar resposta API\", function () {\r",
@@ -316,7 +316,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/usuarios/xySU3LkUuCdLy7CP",
+					"raw": "http://localhost:3000/usuarios/tCVBWqlcbwoOGFan",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -324,7 +324,7 @@
 					"port": "3000",
 					"path": [
 						"usuarios",
-						"xySU3LkUuCdLy7CP"
+						"tCVBWqlcbwoOGFan"
 					]
 				}
 			},
